@@ -6,7 +6,7 @@ Todo repositørio Git armazena as informações dentro de uma pasta oculta chama
  
 > $ git init
 
-# Apagando um repositóri
+# Apagando um repositório
 
 Há momentos em que não queremos apagar nossos arquivos, mas queremos remover as informações sobre aquele repositório criado com o $ git init (talvez criar um repositório novo com os mesmos arquivos). Para isso não usamos o Git. Lembre-se que um repositório Git armazena as informações dentro de uma pasta oculta chamada /.git. Então basta apagar esta pasta oculta que o seu atual diretório deixará de ser um repositório.
 
@@ -146,7 +146,7 @@ $ git log --grep produtos --and --grep usuarios
 
 É possível mandar imprimir o histórico exibindo as branches do repositório com algo mais legível e com cores com um comando. Teremos um resultado parecido com esse:
 
-> * a102055 (HEAD -> main) commit 8
+ * a102055 (HEAD -> main) commit 8
 | * 196d28e (branch-2) commit 7
 | * 07e073c commit 3
 | * 2b077ca new fie
